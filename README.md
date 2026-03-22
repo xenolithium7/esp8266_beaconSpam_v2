@@ -27,6 +27,26 @@ A lightweight and effective tool for **ESP8266** designed to demonstrate the vul
 | **Display** | 128x64 OLED SSD1306 (I2C) |
 | **Control** | Button connected to pin **D7 (GPIO13)** |
 
+---
+
+## 🔌 Pinout
+
+### 📺 OLED Display (I2C)
+| OLED Pin | ESP8266 Pin | GPIO | Description |
+| :--- | :--- | :--- | :--- |
+| **VCC** | 3.3V | — | Power (3.3V) |
+| **GND** | GND | — | Ground |
+| **SCL** | D1 | GPIO5 | I2C Clock |
+| **SDA** | D2 | GPIO4 | I2C Data |
+
+### 🔘 Control Button
+| Button Pin | ESP8266 Pin | GPIO | Description |
+| :--- | :--- | :--- | :--- |
+| **Pin 1** | D7 | GPIO13 | Control Signal (Input) |
+| **Pin 2** | GND | — | Ground |
+
+---
+
 ## 📦 Dependencies
 
 To build the project, make sure you have the following library installed in your Arduino IDE / PlatformIO:
