@@ -9,7 +9,6 @@ A lightweight and effective tool for **ESP8266** designed to demonstrate the vul
 > [\!CAUTION]
 > **Disclaimer:** This project was created solely for educational purposes and for testing network security. The author is not responsible for any illegal use of this software. Remember: it may be illegal to interfere with other people's networks\!
 
------
 
 ## ✨ Main Features
 
@@ -53,7 +52,7 @@ To build the project, make sure you have the following library installed in your
 
   * [U8g2](https://github.com/olikraus/u8g2) — for working with the display.
 
------
+
 
 ## 🚀 Switching Modes
 
