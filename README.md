@@ -1,7 +1,11 @@
-📡 Wi-Fi AIO Tool v1.9.3
+📡 ESP8266 BeaconSpam v2
+
 Developed by Remilia Lembrik
 
 A lightweight and effective tool for ESP8266 designed to demonstrate the vulnerabilities of the 802.11 protocol through the distribution of Beacon frames (SSID Spam).
+
+⚠️ Disclaimer
+This project was created solely for educational purposes and for testing network security. The author is not responsible for any illegal use of this software. Remember: it may be illegal to interfere with other people's networks!
 
 Main features
 Multi-List Spamming: Three built-in SSID lists for different scenarios.
@@ -15,11 +19,11 @@ Stable MAC Generation: Unique generation of MAC addresses for each SSID based on
 Channel Hopping: Work on a given channel for maximum efficiency.
 
 
-Controller: NodeMCU (ESP8266).
+Controller: ESP8266.
 
-Display: 128x64 OLED (I2C).
+Display: 128x64 OLED SSD1306 (I2C).
 
-Control: One clock button (pin D7 / GPIO13) for switching modes.
+Control: Button (pin D7 / GPIO13) for switching modes.
 
 📦 Dependencies
 To build the project, you will need the following libraries:
@@ -35,11 +39,13 @@ Switching: A short press on the button changes the "set" of broadcast networks.
 
 Modes:
 
-Mode 0: The main list (advertising/info).
+Mode 0: Off
 
 Mode 1: Custom List 1.
 
 Mode 2: Custom List 2.
 
-⚠️ Disclaimer
-This project was created solely for educational purposes and for testing network security. The author is not responsible for any illegal use of this software. Remember: it may be illegal to interfere with other people's networks!
+Mode 3: Custom List 3.
+
+Mode 4: All Lists
+
