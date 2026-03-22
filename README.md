@@ -1,51 +1,54 @@
-📡 ESP8266 BeaconSpam v2
+-----
 
-Developed by Remilia Lembrik
+# 📡 ESP8266 BeaconSpam v2
 
-A lightweight and effective tool for ESP8266 designed to demonstrate the vulnerabilities of the 802.11 protocol through the distribution of Beacon frames (SSID Spam).
+**Developed by Remilia Lembrik**
 
-⚠️ Disclaimer
-This project was created solely for educational purposes and for testing network security. The author is not responsible for any illegal use of this software. Remember: it may be illegal to interfere with other people's networks!
+A lightweight and effective tool for **ESP8266** designed to demonstrate the vulnerabilities of the **802.11 protocol** through the distribution of Beacon frames (SSID Spam).
 
-Main features
-Multi-List Spamming: Three built-in SSID lists for different scenarios.
+> [\!CAUTION]
+> **Disclaimer:** This project was created solely for educational purposes and for testing network security. The author is not responsible for any illegal use of this software. Remember: it may be illegal to interfere with other people's networks\!
 
-Dynamic UI: Informative interface based on OLED SSD1306 (U8g2).
+-----
 
-OLED Optimization: Using a full-line buffer for smooth text display.
+## ✨ Main Features
 
-Stable MAC Generation: Unique generation of MAC addresses for each SSID based on the base SID.
+  * **Multi-List Spamming:** Three built-in SSID lists for different scenarios.
+  * **Dynamic UI:** Informative interface based on OLED SSD1306 (**U8g2**).
+  * **OLED Optimization:** Using a full-line buffer for smooth text display.
+  * **Stable MAC Generation:** Unique generation of MAC addresses for each SSID based on the base SID.
+  * **Channel Hopping:** Work on a given channel for maximum efficiency.
 
-Channel Hopping: Work on a given channel for maximum efficiency.
+## 🛠 Hardware Requirements
 
+| Component | Specification |
+| :--- | :--- |
+| **Controller** | ESP8266 (NodeMCU, Wemos D1 Mini, etc.) |
+| **Display** | 128x64 OLED SSD1306 (I2C) |
+| **Control** | Button connected to pin **D7 (GPIO13)** |
 
-Controller: ESP8266.
+## 📦 Dependencies
 
-Display: 128x64 OLED SSD1306 (I2C).
+To build the project, make sure you have the following library installed in your Arduino IDE / PlatformIO:
 
-Control: Button (pin D7 / GPIO13) for switching modes.
+  * [U8g2](https://github.com/olikraus/u8g2) — for working with the display.
 
-📦 Dependencies
-To build the project, you will need the following libraries:
+-----
 
-U8g2 — for working with the display.
+## 🚀 Switching Modes
 
+### 1\. Startup
 
-How to use
+A **short press** on the button (D7) changes the active list of broadcast networks.
 
-Startup: When you turn on, you will be greeted with a stylish three-line greeting: Wi-Fi AIO Tool.
+### 3\. Operating Modes
 
-Switching: A short press on the button changes the "set" of broadcast networks.
+| Mode | Description |
+| :--- | :--- |
+| **Mode 0** | Idle / Off |
+| **Mode 1** | Custom List 1 |
+| **Mode 2** | Custom List 2 |
+| **Mode 3** | Custom List 3 |
+| **Mode 4** | **All Lists** (Maximum Spam) |
 
-Modes:
-
-Mode 0: Off
-
-Mode 1: Custom List 1.
-
-Mode 2: Custom List 2.
-
-Mode 3: Custom List 3.
-
-Mode 4: All Lists
-
+-----
