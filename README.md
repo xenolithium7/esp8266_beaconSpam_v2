@@ -14,9 +14,7 @@ A lightweight and effective tool for **ESP8266** designed to demonstrate the vul
 
   * **Multi-List Spamming:** Three built-in SSID lists for different scenarios.
   * **Dynamic UI:** Informative interface based on OLED SSD1306 (**U8g2**).
-  * **OLED Optimization:** Using a full-line buffer for smooth text display.
   * **Stable MAC Generation:** Unique generation of MAC addresses for each SSID based on the base SID.
-  * **Channel Hopping:** Work on a given channel for maximum efficiency.
 
 ## 🛠 Hardware Requirements
 
