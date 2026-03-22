@@ -26,7 +26,7 @@ A lightweight and effective tool for **ESP8266** designed to demonstrate the vul
 | **Display** | 128x64 OLED SSD1306 (I2C) |
 | **Control** | Button connected to pin **D7 (GPIO13)** |
 
----
+
 
 ## 🔌 Pinout
 
@@ -44,7 +44,7 @@ A lightweight and effective tool for **ESP8266** designed to demonstrate the vul
 | **Pin 1** | D7 | GPIO13 | Control Signal (Input) |
 | **Pin 2** | GND | — | Ground |
 
----
+
 
 ## 📦 Dependencies
 
