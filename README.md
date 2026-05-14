@@ -2,8 +2,6 @@
 
 # 📡 ESP8266 BeaconSpam v2
 
-**Developed by Remilia Lembrik**
-
 A lightweight and effective tool for **ESP8266** designed to demonstrate the vulnerabilities of the **802.11 protocol** through the distribution of Beacon frames (SSID Spam).
 
 > [\!CAUTION]
